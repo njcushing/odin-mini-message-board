@@ -1,4 +1,9 @@
-# flyctl launch added from .gitignore
-node_modules
-**/.env
+**/node_modules/
+**/dist
+.git
+npm-debug.log
+.coverage
+.coverage.*
+.env
+.aws
 fly.toml
