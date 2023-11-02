@@ -1,13 +1,12 @@
-# fly.toml app configuration file generated for damp-feather-9118 on 2023-11-02T09:19:20Z
+# fly.toml app configuration file generated for billowing-snow-4429 on 2023-11-02T09:53:14Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "damp-feather-9118"
+app = "billowing-snow-4429"
 primary_region = "lhr"
 
 [build]
-  image = "flyio/hellofly:latest"
 
 [http_service]
   internal_port = 8080
